@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <table>
+        <thead>
+            <th> </th>
+
+
+            <tr>
+                <th class="head"><button onclick="onAddBook()" class="add">Add book</button></th>
+
+                <th class="head" colspan="5">
+                    <h1>Welcome to my books shop!</h1>
+                </th>
+
+            </tr>
+
+
+
+
+
+            <tr>
+
+                <td class="id">Id</td>
+                <td class="title">Title</td>
+                <td class="price">Price</td>
+                <td colspan="3" class="actions">Actions</td>
+
+            </tr>
+        </thead>
+        <tbody>
+            <!-- <tr>
+
+                <td class="id">id</td>
+                <td class="title">title</td>
+                <td class="price">price</td>
+                <td class="action"><button onclick="onReadBook()" class="read">Read</button></td>
+                <td><button onclick="onUpdateBook()" class="update">Update</button></td>
+                <td><button onclick="onDeleteBook()" class="delete">Delete</button></td>
+
+            </tr> -->
+
+        </tbody>
+
+    </table>
+    <div class="modal">
+        <h3></h3>
+        <p></p>
+        <h4>  Rete: <div class="rateing">
+            <button onclick="onRateMius()" class="minus">-</button>
+            <span></span>
+            <button onclick="onRateplus()" class="plus">+</button>
+        </div></h4>
+
+        <button onclick="onCloseModal()" class="close-modal">x</button>
+    </div>
+
+    <script src="lib\jQuery.js"></script>
+    <script src="js\storage.service.js"></script>
+    <script src="js\books.utils.js"></script>
+    <script src="js\books.service.js"></script>
+    <script src="js\books.control.js"></script>
+</body>
+
+</html>

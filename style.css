@@ -1,0 +1,109 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60vw;
+    text-align: left;
+    margin: 0 auto;
+}
+
+thead {
+    font-weight: 900;
+    text-align: center;
+
+
+}
+
+.head button {
+    background-color: rgb(240, 186, 240);
+
+}
+
+button {
+    border-radius: 5%;
+    border-width: .5px;
+
+}
+
+td {
+    text-align: center;
+    font-size: larger;
+    border-style: groove;
+    height: 30px;
+}
+
+
+.price {
+    width: 18%;
+}
+
+.id {
+    width: 10%;
+    text-align: left;
+
+}
+
+
+.title {
+    width: 42%;
+    text-align: left;
+
+}
+
+.action {
+    width: 10%;
+    text-align: left;
+
+}
+
+.read {
+    background-color: rgb(81, 185, 214);
+
+}
+
+.update {
+    background-color: rgb(233, 158, 60);
+}
+
+.delete {
+    background-color: rgb(243, 76, 76);
+}
+
+
+.modal {
+    display: none;
+    width: 250px;
+    height: 250px;
+    background-color: lightgreen;
+    position: fixed;
+    top: 55px;
+    left: 130px;
+
+}
+
+.close-modal {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.modal .minus,
+.modal .span,
+.modal .plus {
+    display: inline-block;
+}
+
+
+
+
+.rateing {
+    width: 50%;
+    border-color: black;
+    border-style: groove;
+    border: 0.5px;
+    display:flex;
+    justify-content: space-between;
+    background-color: darkgray;
+
+}
+
+
